@@ -52,7 +52,7 @@ void draw() {
   background(128);
   image(img,0,0);
  
-  ambientLight(150, 150, 150);
+   ambientLight(150, 150, 150);
   lightSpecular(230,230,230);
   directionalLight(200,200,255,0,1,1);
   specular(255,255,255);
