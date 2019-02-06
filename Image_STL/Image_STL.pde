@@ -41,7 +41,11 @@ void setup() {
 void draw() {
   background(0);
   image(img,0,0);
-  lights();
+  ambientLight(150, 150, 150);
+  lightSpecular(230,230,230);
+  directionalLight(200,200,255,0,1,1);
+  specular(255,255,255);
+  shininess(16.0);
   translate(width/2, height/2, 0);
   rotateX(mouseY*0.01);
   rotateY(mouseX*0.01);
